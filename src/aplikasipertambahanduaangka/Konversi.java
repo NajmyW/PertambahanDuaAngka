@@ -148,6 +148,7 @@ public class Konversi extends javax.swing.JFrame {
         gridBagConstraints.insets = new java.awt.Insets(17, 17, 17, 17);
         jPanel2.add(jTextField3, gridBagConstraints);
 
+        jButton1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jButton1.setText("Tambah");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -161,6 +162,7 @@ public class Konversi extends javax.swing.JFrame {
         gridBagConstraints.insets = new java.awt.Insets(17, 17, 17, 17);
         jPanel2.add(jButton1, gridBagConstraints);
 
+        jButton2.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jButton2.setText("Hapus");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -175,6 +177,7 @@ public class Konversi extends javax.swing.JFrame {
         gridBagConstraints.insets = new java.awt.Insets(17, 17, 17, 17);
         jPanel2.add(jButton2, gridBagConstraints);
 
+        jButton3.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jButton3.setText("Keluar");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -198,7 +201,7 @@ public class Konversi extends javax.swing.JFrame {
         // TODO add your handling code here:
         try {
     double angka1 = Double.parseDouble(jTextField1.getText());
-   double angka2 = Double.parseDouble(jTextField2.getText());
+    double angka2 = Double.parseDouble(jTextField2.getText());
     double hasil = angka1 + angka2;
     jTextField3.setText(hasil+"");
 } catch (NumberFormatException e) {
@@ -220,11 +223,11 @@ public class Konversi extends javax.swing.JFrame {
     
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:
+//        menghapus inputan/hasil
         jTextField1.setText("");
         jTextField2.setText("");
         jTextField3.setText("");
         jTextField1.requestFocus();
-
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
@@ -280,10 +283,8 @@ public class Konversi extends javax.swing.JFrame {
         //</editor-fold>
 
         /* Create and display the form */
-        java.awt.EventQueue.invokeLater(new Runnable() {
-            public void run() {
-                new Konversi().setVisible(true);
-            }
+        java.awt.EventQueue.invokeLater(() -> {
+            new Konversi().setVisible(true);
         });
     }
 
