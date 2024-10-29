@@ -26,8 +26,9 @@ Aplikasi ini memungkinkan pengguna untuk menghitung hasil pertambahan dua angka.
 - FocusListener untuk membersihkan JTextField saat mendapatkan fokus
 
 **Logika Program:**
-- Penambahan dua angka, validasi input numerik
-- 
+- Penambahan dua angka
+- validasi input numerik
+  
 ## Fitur
 - **Antarmuka Pengguna Grafis**: Aplikasi menggunakan JFrame untuk tampilan window dan JPanel untuk organisasi layout, memastikan bahwa antarmuka pengguna mudah dioperasikan.
 - **Input Dinamis**: Pengguna dapat memasukkan dua angka dalam bidang teks yang disediakan dan mendapatkan hasil secara instan dengan menekan tombol 'Hitung'.
