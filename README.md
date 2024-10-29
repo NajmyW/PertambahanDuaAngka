@@ -1,2 +1,3 @@
-# PertambahanDuaAngka
- Muhammad Najmy Wardhana - 2210010212 - Pertambahan Dua Angka
+# Pertambahan Dua Angka
+ 
+Menggunakan Apache NetBeans JFrame dan JPanel dan lainnya...
