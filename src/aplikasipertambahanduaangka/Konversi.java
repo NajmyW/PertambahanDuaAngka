@@ -216,7 +216,7 @@ public class Konversi extends javax.swing.JFrame {
     if (!(Character.isDigit(c) || c == KeyEvent.VK_BACK_SPACE || c == KeyEvent.VK_DELETE)) {
         Toolkit.getDefaultToolkit().beep();  // Memainkan suara beep
         // Menampilkan pesan dialog yang menginformasikan hanya angka yang diperbolehkan
-        JOptionPane.showMessageDialog(null, "Masukkan hanya angka (0-9)!");
+        JOptionPane.showMessageDialog(null, "Masukkan hanya angka!");
         evt.consume();  // Mengkonsumsi event agar karakter tidak diproses lebih lanjut
     }
 }
